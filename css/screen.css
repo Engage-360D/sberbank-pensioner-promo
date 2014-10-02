@@ -29,12 +29,17 @@ body { font-family: Roboto, Arial, sans-serif; font-size: 24px; font-weight: 100
 .wrapper .header { position: relative; width: 100%; height: 135px; background-color: #ebebeb; }
 .wrapper .header .header__logo { margin-top: 38px; margin-left: 18px; float: left; background: url('../img/icons-s146748f89b.png') 0 0 no-repeat; width: 258px; height: 63px; }
 .wrapper .content { margin: 0px 110px; }
+.wrapper .content--type-pensioner { margin: 0px 90px; }
 .wrapper .content--type-pensioner h1 { font-size: 36px; font-weight: 100; margin-top: 45px; margin-bottom: 18px; margin-left: 33px; }
-.wrapper .content--type-pensioner .subheader { font-weight: 300; margin-bottom: 50px; margin-left: 33px; }
+.wrapper .content--type-pensioner .subheader { font-weight: normal; margin-bottom: 50px; margin-left: 33px; }
 .wrapper .content--type-pensioner ol { counter-reset: my-counter; }
 .wrapper .content--type-pensioner ol li { position: relative; margin-bottom: 30px; padding-left: 33px; }
 .wrapper .content--type-pensioner ol li:before { content: counter(my-counter); counter-increment: my-counter; position: absolute; top: 6px; left: 0; width: 22px; height: 22px; font-family: Roboto, Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 22px; background: #ffa91a; text-align: center; border-radius: 50%; color: #fff; }
 .wrapper .content--type-pensioner .dotted { border-bottom: 1px dotted #000; padding-bottom: 8px; }
+.wrapper .content--type-success-reg { margin: 0px 82px; }
+.wrapper .content--type-success-reg h1, .wrapper .content--type-success-reg p, .wrapper .content--type-success-reg .subheader { margin-left: 50px; }
+.wrapper .content--type-success-reg .dotted { padding-bottom: 25px; }
+.wrapper .content--type-success-reg .subheader { margin-bottom: 35px; }
 
 .footer { min-width: 594px; max-width: 914px; width: 100%; height: 180px; margin: auto; }
 .footer .footer__content { padding: 25px 23px 0px 23px; }
